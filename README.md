@@ -1,4 +1,5 @@
-Logic Explanation
+Logic Explanation: 
+
 This application involves the Student Registration System, where students can be added, updated, deleted, and their profiles can be viewed. It is designed using Swing for the GUI, JDateChooser for the date input, JTattoo for custom look and feel, and it manages the student data using an in-memory list. Below is a detailed explanation of how things are used and connected in the code.
 
 Components and Their Usage
