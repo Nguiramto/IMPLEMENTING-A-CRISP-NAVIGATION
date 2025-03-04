@@ -1,8 +1,7 @@
 package org.example;
 
-import org.example.Student;
-
 import javax.swing.*;
+import java.sql.Date;
 import java.util.ArrayList;
 
 public class StudentManager {
@@ -11,8 +10,8 @@ public class StudentManager {
     private int CurrentIndex = -1;
 
     // Add new student
-    public void addStudent(String name, String regNumber, String gender, String course, String subject) {
-        students.add(new Student(name, regNumber, gender, course, subject));
+    public void addStudent(String name, String regNumber, String gender, String course, String subject, Date sqlDate) {
+        students.add(new Student(name, regNumber, gender, course, subject, sqlDate));
     }
 
     // Remove a student
